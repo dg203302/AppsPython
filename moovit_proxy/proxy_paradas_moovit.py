@@ -4,12 +4,12 @@ latitud = -31.5375
 longitud = -68.5364
 clase_parada_colect='.stop-item'
 clase_parada_colect='.stop-item'
-timeout_default=3000
-#datos de prueba
-linea_p='129'
-parada_p='Av. Ig. De La Roza y Los Jesuitas S -A'
-#
+timeout_default=1000
 
+
+
+linea_p = input("linea")
+parada_p = input("parada")
 with sync_playwright() as motor:
     naveg = motor.chromium.launch(headless=False)
     contexto = naveg.new_context(
@@ -41,3 +41,8 @@ with sync_playwright() as motor:
         print(f"Error al intentar extraer el JSON: {e}")
 
     pag.close()
+
+
+#datos de prueba
+#linea_p='129'
+#parada_p='Av. Ig. De La Roza y Los Jesuitas S -A'
