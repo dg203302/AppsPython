@@ -1,10 +1,10 @@
 import requests
 
-API_URL = "https://proxy-rt-api.onrender.com/arrivals"
-
+#API_URL = "https://proxy-rt-api-production.up.railway.app/arrivals"
+API_URL = "http://0.0.0.0:8000/arrivals"
 datos_consulta = {
-    "linea": "129",
-    "parada": "Av. Ig. De La Roza y Los Jesuitas S -A"
+    "linea": "102",
+    "parada": "Los Almendros y Viamonte S"
 }
 
 print(f"Consultando a la Red Tulum para la línea {datos_consulta['linea']}...")
