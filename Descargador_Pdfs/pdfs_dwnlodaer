@@ -1,0 +1,49 @@
+import requests
+import os
+import time
+ 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"
+}
+departamentos = [
+    "Valle&20Fertil",
+    "Calingasta",
+    "Jachal",
+    "Iglesia",
+    "Albardon",
+    "Chimbas",
+    "Angaco",
+    "San%20Martín",
+    "9%20de%20Julio",
+    "Santa%20Lucía",
+    "25%20de%20Mayo",
+    "Caucete",
+    "Rawson",
+    "Sarmiento",
+    "Pocito",
+    "Zonda",
+    "Ullum",
+    "Rivadavia",
+    "Capital",
+]
+
+OUTPUT_DIR = "pdfs_tulum"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+ 
+print("=== Descarga de PDFs - Red Tulum ===\n")
+ 
+for dep in departamentos:
+    url = f"https://www.redtulum.gob.ar/r/{dep}"
+    nombre_archivo = os.path.join(OUTPUT_DIR, f"{dep}.pdf")
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+        r.raise_for_status()
+        with open(nombre_archivo, "wb") as f:
+            f.write(r.content)
+        size_kb = len(r.content) / 1024
+        print(f"  ✔ {dep}.pdf  ({size_kb:.1f} KB)")
+    except Exception as e:
+        print(f"  ✘ {dep}: {e}")
+    time.sleep(0.5)
+ 
+print(f"\n=== Listo. PDFs guardados en '{OUTPUT_DIR}/' ===")

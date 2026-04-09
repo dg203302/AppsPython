@@ -1,0 +1,1986 @@
+
+    
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <link rel="preload" href="/assets/fonts/fonts/nexablack-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/fonts/nexabold-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/fonts/nexaregular-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
+            <title>RedTulum</title>
+        <meta property="og:site_name" content="RedTulum">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="RedTulum" />
+        <meta property="og:description" content="Conocé cómo está compuesto el sistema de transporte público de San Juan." />
+        <meta property="og:image" content="https://www.redtulum.gob.ar/assets/img/share.jpg" />
+        <meta property="og:url" content="https%3A%2F%2Fwww.redtulum.gob.ar%2F" />
+        <meta name="description" content="Conocé cómo está compuesto el sistema de transporte público de San Juan." />
+        <meta name="keywords" content="RedTulum" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="RedTulum">
+        <meta name="twitter:description" content="Conocé cómo está compuesto el sistema de transporte público de San Juan.">
+        <meta name="twitter:image" content="https://www.redtulum.gob.ar/assets/img/share.jpg">
+    
+    <link rel="shorcut icon" href="assets/img/favicon.png">
+    <link href="dist/main.css?v=15" rel="stylesheet">
+    <link href="assets/main.css?v=44" rel="stylesheet">
+
+    <meta name="theme-color" content="#E50063">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEF168LNKV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WEF168LNKV');
+    </script>
+
+    <!-- <script src="WebViewer/lib/webviewer.min.js"></script> -->
+</head>
+<body class="loaded">
+    
+<header id="header" class="is-inview">
+    
+    <div class="wrapper d-f ai-c jc-sb c-white " style="z-index:1">
+        <a href="home" class="logo enter-y-r ">
+            <svg width="281" height="70" viewBox="0 0 281 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.26301 27.9601H20.5327V67.5891C20.5327 68.8293 21.5262 69.9003 22.7957 69.9003H31.9582C33.1725 69.9003 34.2212 68.8856 34.2212 67.5891V55.8639H79.8678C81.0821 55.8639 82.1308 54.8492 82.1308 53.5527V44.195C82.1308 42.9549 81.1373 41.8838 79.8678 41.8838H61.5981V2.31122C61.5981 1.07105 60.6046 0 59.3351 0H50.1175C48.9032 0 47.8545 1.01468 47.8545 2.31122V13.9801H2.26301C0.993518 13.9801 0 14.9947 0 16.2913V25.6489C0 26.8891 0.993518 27.9601 2.26301 27.9601ZM34.2212 27.9601H47.9097V41.9402H34.2212V27.9601Z" fill="white"/>
+                <path d="M112.102 55.9758H106.583C105.81 55.9758 105.037 55.5812 104.54 54.9047L98.9105 46.9H96.2059V54.1155C96.2059 55.1302 95.3779 55.9758 94.3844 55.9758H90.3C89.3064 55.9758 88.4785 55.1302 88.4785 54.1155V29.8759C88.4785 28.8612 89.3064 28.0156 90.3 28.0156H101.891C103.657 28.0156 105.203 28.2975 106.527 28.8048C107.852 29.3122 108.956 30.045 109.839 30.9469C110.722 31.8489 111.385 32.8636 111.826 34.0473C112.268 35.2311 112.489 36.4149 112.489 37.6551C112.489 38.5007 112.378 39.3462 112.213 40.1354C112.047 40.9246 111.771 41.7138 111.329 42.3903C110.888 43.1231 110.281 43.7432 109.563 44.3633C108.79 44.9834 107.852 45.5471 106.693 46.0544L112.875 54.2282C113.482 54.9611 112.985 55.9758 112.102 55.9758ZM96.2611 34.2728V40.981H101.946C102.94 40.981 103.712 40.6428 104.154 40.0227C104.596 39.3462 104.872 38.6134 104.872 37.7678C104.872 36.8659 104.651 36.0767 104.154 35.3439C103.657 34.6111 102.885 34.2728 101.891 34.2728H96.2611Z" fill="white"/>
+                <path d="M126.398 35.7397C128.109 35.7397 129.71 36.0216 131.09 36.5853C132.525 37.149 133.684 37.9382 134.567 39.0093C135.505 40.0803 136.112 41.3769 136.499 42.8989C136.775 44.1954 136.83 45.6611 136.554 47.2958C136.499 47.8032 136.057 48.1414 135.56 48.1414H122.921C123.031 48.5924 123.252 48.987 123.583 49.2688C123.914 49.5507 124.245 49.8325 124.687 50.058C125.128 50.2835 125.515 50.4526 125.956 50.509C126.398 50.6217 126.839 50.6217 127.226 50.6217C128.275 50.6217 129.213 50.4526 130.041 50.1708C130.593 50.0017 131.09 49.7198 131.531 49.4379C131.917 49.2125 132.469 49.2688 132.745 49.6634L135.008 52.2565C135.395 52.7075 135.34 53.4403 134.843 53.7785C133.904 54.5114 132.801 55.1314 131.641 55.526C130.151 56.0334 128.551 56.3152 126.895 56.3152C125.349 56.3152 123.914 56.0898 122.534 55.6952C121.154 55.3006 119.995 54.6805 118.946 53.8349C117.898 52.9893 117.125 51.9747 116.518 50.6781C115.911 49.3816 115.635 47.8596 115.635 45.9993C115.635 44.1954 115.966 42.6734 116.573 41.3205C117.18 40.024 118.008 38.8965 119.057 38.1073C120.106 37.3181 121.21 36.6417 122.534 36.2471C123.804 35.9652 125.073 35.7397 126.398 35.7397ZM129.93 43.4626C129.93 42.9553 129.71 42.5043 129.378 42.1661C129.047 41.8278 128.606 41.546 128.109 41.3769C127.612 41.2078 127.06 41.095 126.508 41.095C125.956 41.095 125.404 41.1514 124.908 41.3205C124.411 41.4896 123.969 41.7715 123.583 42.1097C123.197 42.4479 122.976 42.8989 122.921 43.4626H129.93Z" fill="white"/>
+                <path d="M156.204 28.0162H160.122C161.061 28.0162 161.778 28.7491 161.778 29.7074V54.3416C161.778 55.2435 161.061 55.9764 160.178 55.9764H156.259C155.762 55.9764 155.32 55.5818 155.21 55.0744L155.044 53.8343C154.217 54.7926 153.223 55.469 152.064 55.8072C150.905 56.2018 149.801 56.3146 148.697 56.3146C145.882 56.1455 143.674 55.1872 142.129 53.4397C140.583 51.6922 139.866 49.2682 139.866 46.1114C139.866 44.5894 140.087 43.2365 140.528 41.9399C140.97 40.6998 141.577 39.6287 142.405 38.6704C143.233 37.7685 144.226 37.0356 145.385 36.5283C146.544 36.021 147.814 35.7955 149.249 35.7955C150.518 35.7955 151.567 35.9646 152.45 36.3592C153.333 36.7538 154.051 37.2611 154.603 37.9376V29.651C154.548 28.7491 155.265 28.0162 156.204 28.0162ZM150.85 41.7144C149.746 41.7144 148.863 42.109 148.09 42.8419C147.372 43.5747 146.986 44.6457 146.986 46.055C146.986 47.4643 147.372 48.479 148.09 49.2682C148.807 50.001 149.746 50.3956 150.85 50.3956C151.457 50.3956 152.009 50.2829 152.45 50.0574C152.947 49.8319 153.333 49.4937 153.665 49.1554C153.996 48.7608 154.272 48.3662 154.437 47.8589C154.603 47.3516 154.713 46.8442 154.713 46.3369C154.713 45.7732 154.603 45.1531 154.437 44.6457C154.272 44.082 153.996 43.5747 153.72 43.1801C153.389 42.7855 153.002 42.4473 152.505 42.1654C152.009 41.8836 151.457 41.7144 150.85 41.7144Z" fill="white"/>
+                <path d="M172.431 34.4989H166.084C165.2 34.4989 164.483 33.7661 164.483 32.8642V29.651C164.483 28.7491 165.2 28.0162 166.084 28.0162H186.561C187.444 28.0162 188.162 28.7491 188.162 29.651V32.8642C188.162 33.7661 187.444 34.4989 186.561 34.4989H180.158V54.2852C180.158 55.2435 179.441 55.9764 178.503 55.9764H174.087C173.149 55.9764 172.431 55.2435 172.431 54.2852V34.4989Z" fill="white"/>
+                <path d="M193.681 36.1903C194.564 36.1903 195.282 36.9231 195.282 37.8251V47.07C195.282 47.69 195.337 48.1974 195.502 48.592C195.668 48.9866 195.834 49.3248 196.11 49.6067C196.33 49.8885 196.661 50.0576 196.993 50.1704C197.324 50.2831 197.655 50.3395 197.986 50.3395C198.869 50.3395 199.642 50.0576 200.304 49.4939C200.967 48.9302 201.298 47.9719 201.298 46.6754V37.8814C201.298 36.9795 202.015 36.1903 202.954 36.1903H206.817C207.701 36.1903 208.473 36.9231 208.473 37.8814V54.2855C208.473 55.1874 207.756 55.9202 206.873 55.9202H203.009C202.512 55.9202 202.071 55.5256 201.96 55.0183L201.795 53.7781C200.967 54.7364 199.973 55.4693 198.869 55.8639C197.765 56.2585 196.717 56.4276 195.668 56.4276C194.674 56.4276 193.681 56.2585 192.798 55.9766C191.859 55.6948 191.087 55.131 190.369 54.4546C189.652 53.7218 189.155 52.7635 188.713 51.5797C188.327 50.3959 188.106 48.9302 188.106 47.1827V37.8814C188.106 36.9795 188.824 36.2467 189.707 36.2467H193.681V36.1903Z" fill="white"/>
+                <path d="M230.773 36.1903C231.656 36.1903 232.373 36.9231 232.373 37.8251V47.07C232.373 47.69 232.428 48.1974 232.594 48.592C232.76 48.9866 232.925 49.3248 233.201 49.6067C233.422 49.8885 233.753 50.0576 234.084 50.1704C234.415 50.2831 234.747 50.3395 235.078 50.3395C235.961 50.3395 236.734 50.0576 237.396 49.4939C238.058 48.9302 238.389 47.9719 238.389 46.6754V37.8814C238.389 36.9795 239.107 36.1903 240.045 36.1903H243.909C244.792 36.1903 245.565 36.9231 245.565 37.8814V54.2855C245.565 55.1874 244.847 55.9202 243.964 55.9202H240.101C239.604 55.9202 239.162 55.5256 239.052 55.0183L238.886 53.7781C238.058 54.7364 237.065 55.4693 235.961 55.8639C234.857 56.2585 233.808 56.4276 232.76 56.4276C231.766 56.4276 230.773 56.2585 229.889 55.9766C228.951 55.6948 228.178 55.131 227.461 54.4546C226.743 53.7218 226.246 52.7635 225.805 51.5797C225.419 50.3959 225.198 48.9302 225.198 47.1827V37.8814C225.198 36.9795 225.915 36.2467 226.798 36.2467H230.773V36.1903Z" fill="white"/>
+                <path d="M220.506 29.6502V54.2845C220.506 55.2428 219.789 55.9756 218.85 55.9756H215.042C214.104 55.9756 213.386 55.2428 213.386 54.2845V29.6502C213.386 28.6919 214.104 27.9591 215.042 27.9591H218.85C219.733 27.9591 220.506 28.6919 220.506 29.6502Z" fill="white"/>
+                <path d="M263.834 55.9763C262.951 55.9763 262.234 55.2435 262.234 54.3415V44.9839C262.234 43.8565 262.068 43.0673 261.682 42.6163C261.351 42.1654 260.854 41.9399 260.191 41.9399C259.584 41.9399 259.032 42.1654 258.48 42.6727C257.928 43.18 257.652 43.9692 257.652 45.0967V54.2852C257.652 55.1871 256.935 55.9199 256.052 55.9199H252.078C251.195 55.9199 250.477 55.1871 250.477 54.2852V37.8811C250.477 36.9792 251.195 36.2464 252.078 36.2464H255.721C256.162 36.2464 256.604 36.5846 256.714 37.0356L257.045 38.3885C257.652 37.5429 258.425 36.9228 259.419 36.4719C260.412 36.0209 261.406 35.8518 262.399 35.8518C263.393 35.8518 264.331 36.1336 265.159 36.5846C266.042 37.0356 266.705 37.712 267.201 38.6703C268.029 37.6557 268.968 36.9228 270.016 36.4719C271.065 36.0209 272.279 35.7954 273.604 35.7954C274.653 35.7954 275.591 35.9645 276.529 36.3028C277.412 36.641 278.185 37.2047 278.903 37.9375C279.565 38.6703 280.062 39.6287 280.448 40.8124C280.835 41.9962 281 43.4055 281 44.9839V54.3415C281 55.2435 280.283 55.9763 279.399 55.9763H275.425C274.542 55.9763 273.825 55.2435 273.825 54.3415V44.9839C273.825 43.9692 273.604 43.18 273.218 42.7291C272.831 42.2781 272.334 42.0526 271.838 42.0526C271.231 42.0526 270.679 42.2781 270.127 42.7291C269.575 43.18 269.299 43.9692 269.299 45.0403V54.2288C269.299 55.1307 268.581 55.8636 267.698 55.8636H263.834V55.9763Z" fill="white"/>
+            </svg>
+        </a>
+
+        <div class="header-right enter-y-r delay-1 d-f ai-c">
+            <nav class="desktop">
+                <a class="js-site-link" href="app">App</a>
+                <a href="https://moovitapp.com/san_juan-6137/poi/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg" target="_blank" rel="noopener noreferrer">Planificá tu viaje </a>
+                <p>Cerrar</p>
+            </nav>
+            <div class="toggle-nav enter-y-r delay-2">
+                <span class=""></span>
+                <span class=""></span>
+                <span class=""></span>
+                <p>MENÚ</p>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu">
+        <div class="overlay"></div>
+        <nav>
+
+                                <a
+                        class="js-site-link"
+                        href="app
+"
+                                                                    >
+                        App
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="https://bit.ly/RtLinkbtsjsj20
+"
+                                                target="_blank"                     >
+                        Planificá tu viaje 
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="novedades
+"
+                                                                    >
+                        Novedades
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="preguntas-frecuentes
+"
+                                                                    >
+                        Ayuda
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="https://bit.ly/3gdUg36
+"
+                                                                    >
+                        Líneas
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="https://www.redtulum.gob.ar/novedad?id=conoce-nuestros-canales-de-contacto
+"
+                                                                    >
+                        Canales de Contacto
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="contacto
+"
+                                                                    >
+                        Formulario Web
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="tel:0800 333 8858
+"
+                        style="color: #ffed00 !important"                                             >
+                        0800 333 8858
+                    </a>
+                                    <a
+                        class="js-site-link"
+                        href="https://tarjetasube.sube.gob.ar/
+"
+                        style="color: #ffed00 !important"                         target="_blank"                     >
+                        Tarjeta SUBE
+                    </a>
+                
+            <div class="downloads">
+                    <span>Descargá la app</span>
+                    <a href="https://apps.apple.com/ar/app/redtulum/id1546883343?itsct=apps_box&itscg=30200" target="_blank" rel="noopener noreferrer">
+                        <svg width="29" height="35" viewBox="0 0 29 35" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M23.7074 18.3259C23.6924 15.5322 24.9308 13.4236 27.4374 11.8707C26.0349 9.82298 23.9163 8.69636 21.1187 8.47561C18.4704 8.26246 15.5759 10.0514 14.5165 10.0514C13.3975 10.0514 10.8313 8.55173 8.81703 8.55173C4.6543 8.62024 0.230469 11.9392 0.230469 18.6913C0.230469 20.6857 0.588553 22.7461 1.30472 24.8725C2.25961 27.6662 5.70617 34.5173 9.30194 34.4031C11.1819 34.3574 12.5098 33.0405 14.9567 33.0405C17.329 33.0405 18.5599 34.4031 20.6562 34.4031C24.2818 34.3498 27.4001 28.1229 28.3102 25.3216C23.4463 22.9846 23.7074 18.4705 23.7074 18.3259ZM19.485 5.82653C21.5216 3.36015 21.3351 1.11452 21.2754 0.307617C19.4775 0.414189 17.3961 1.55603 16.21 2.96431C14.9045 4.47154 14.1361 6.33655 14.3002 8.43754C16.2473 8.58979 18.0228 7.56974 19.485 5.82653Z" fill="#E50063"/> </svg>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.sanjuan.redtulum " target="_blank" rel="noopener noreferrer">
+                        <svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M17.0116 13.6755L4.54109 1.53634L20.4075 10.3788L17.0116 13.6755ZM1.28644 0.823242C0.551889 1.19625 0.0603027 1.87644 0.0603027 2.75959V26.9667C0.0603027 27.8498 0.551889 28.53 1.28644 28.903L15.7854 14.8604L1.28644 0.823242ZM25.312 13.1983L21.9839 11.3278L18.2716 14.8659L21.9839 18.404L25.3798 16.5334C26.3969 15.749 26.3969 13.9827 25.312 13.1983ZM4.54109 28.1954L20.4075 19.3529L17.0116 16.0562L4.54109 28.1954Z" fill="#E50063"/> </svg>
+                    </a>
+            </div>
+            <div class="hero-lines">
+                            <img src="assets/img/hero-lines-1.png" alt="Red Tulum" class="enter-x delay-4">
+            </div>
+        </nav> 
+    </div>         
+</header>
+	<main id="js-scroll" class="main-home">
+
+        <div data-router-wrapper>
+
+            <div data-router-view="home">
+                
+                            <section id="hero" data-scroll class="is-inview">
+                    <div class="bg-desktop" style="background-image: url(https://images.prismic.io/redtulum/a30f0fb7-f395-4526-b263-41399b82a0f5_Imagen+hero+y+texto+home+web+RedTulum+150+ppp_Desktop+1416x849+px++copia.png?auto=compress,format);"></div>
+                    <div class="bg-mobile" style="background-image: url(https://images.prismic.io/redtulum/5ee1e6fa-385c-477d-a394-391fe37747c1_Imagen+hero+y+texto+home+web+RedTulum_Mobile+1000x600+px.jpg?auto=compress,format);"></div>
+                    <div class="wrapper">
+                        <div class="enter-y delay-1"><h1>Planific&aacute; <br />
+tu viaje con<br />
+Tiempo Real </h1></div>
+                        <!-- <h2 class="enter-y delay-2">
+                            Conocé cómo está compuesto el sistema de transporte público de San Juan.
+                            <a href="lineas" class="link-recorridos"><img src="assets/img/recorridos.svg" alt="RedTulum Recorridos"></a>
+                        </h2> -->
+                        
+                        
+                        <!-- <div class="button violet mobile">
+                            <span>Planificá tu viaje</span>
+                        </div> -->
+
+                        <h2 class="enter-y delay-2 d-f ai-c">
+                            Descargá la app en
+                            <div class="downloads">
+                                <a href="https://apps.apple.com/ar/app/redtulum/id1546883343?itsct=apps_box&itscg=30200" target="_blank" rel="noopener noreferrer">
+                                    <svg width="24" height="29" viewBox="0 0 24 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M19.7416 15.0472C19.7295 12.7773 20.7357 11.0641 22.7723 9.80234C21.6328 8.13858 19.9114 7.22321 17.6384 7.04384C15.4866 6.87066 13.1348 8.32413 12.2741 8.32413C11.3649 8.32413 9.27979 7.10569 7.64324 7.10569C4.26102 7.16136 0.666656 9.85801 0.666656 15.3441C0.666656 16.9646 0.9576 18.6386 1.53949 20.3663C2.31534 22.6362 5.11567 28.2027 8.03722 28.1099C9.56468 28.0728 10.6436 27.0028 12.6317 27.0028C14.5592 27.0028 15.5593 28.1099 17.2626 28.1099C20.2084 28.0666 22.742 23.0073 23.4815 20.7312C19.5295 18.8324 19.7416 15.1647 19.7416 15.0472ZM16.3109 4.89146C17.9657 2.88753 17.8141 1.06296 17.7656 0.407349C16.3049 0.493938 14.6138 1.42169 13.65 2.56591C12.5893 3.79054 11.965 5.30586 12.0983 7.01292C13.6803 7.13662 15.1229 6.30783 16.3109 4.89146Z" fill="#e50063"/> </svg>
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.sanjuan.redtulum " target="_blank" rel="noopener noreferrer">
+                                    <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.9211 10.9239L3.78886 1.06084L16.6803 8.24535L13.9211 10.9239ZM1.14446 0.481445C0.547638 0.784514 0.148224 1.33717 0.148224 2.05473V21.723C0.148224 22.4405 0.547638 22.9932 1.14446 23.2963L12.9249 11.8866L1.14446 0.481445ZM20.6653 10.5362L17.9612 9.01639L14.9449 11.8911L17.9612 14.7658L20.7203 13.246C21.5467 12.6086 21.5467 11.1735 20.6653 10.5362ZM3.78886 22.7213L16.6803 15.5368L13.9211 12.8582L3.78886 22.7213Z" fill="#e50063"/> </svg>
+                                </a>
+                            </div>
+                        </h2>
+                            
+                        <div class="enter-y delay-2 hero-planifica-button">
+                            <a href="https://moovitapp.com/san_juan-6137/poi/es-419 ?customerId=NPIdiV-P9Gcj-pA7yOXVPg" target="_blank" rel="noopener noreferrer" class="violet">Planificá tu viaje</a>
+                        </div>
+                        
+                                                    <div class="hero-banner">
+                                <a class="enter-y delay-2" href="https://bit.ly/36Wr2oH" >
+                                    <img class="mobile" src="https://images.prismic.io/redtulum/c194b61f-1ea2-4546-a6a2-35cdcafa99b1_BNER-HOME-RT-Canales-Contactos-mar22---500x230--1_5xpx.jpg?auto=compress,format" alt="RedTulum">
+                                    <img class="desktop" src="https://images.prismic.io/redtulum/c194b61f-1ea2-4546-a6a2-35cdcafa99b1_BNER-HOME-RT-Canales-Contactos-mar22---500x230--1_5xpx.jpg?auto=compress,format" alt="RedTulum">
+                                </a>
+                            </div>
+                        
+                        
+                        
+                    </div>
+                    
+
+                    <div class="hero-lines">
+                        <img data-src="assets/img/hero-lines-1.png" alt="Red Tulum" class="enter-x delay-4 lazyload">
+                        <!-- <img src="assets/img/hero-lines-2.png" alt="Red Tulum" class="enter-x delay-5"> -->
+                    </div>
+                    
+                    <!-- <img src="assets/img/grid-1.png" alt="Red Tulum" id="grid-1"> -->
+                    <!-- <img src="assets/img/grid-2.png" alt="Red Tulum" id="grid-2"-> -->
+                </section>
+
+                                <section id="home-news-video" data-scroll>
+                    <div class="wrapper">
+                        <div class="home-news">
+                            <h3 class="enter-y">Novedades RedTulum</h3>
+                            
+                            <div class="home-news-list d-f jc-sb enter-y delay-1">
+                                
+
+
+
+
+                                <div class="swiper-wrapper">
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">09 Mayo, 2025</small>
+                                                    <h6>RedTulum modifica los recorridos de las líneas 407 y 408 desde el 12 de mayo
+</h6>
+                                                    <!-- <p>Los cambios mejorarán la cobertura en el Hospital Rawson, la Terminal de Ómnibus y el microcentro capitalino.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-modifica-los-recorridos-de-las-lineas-407-y-408-desde-el-12-de-mayo"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">25 Abril, 2025</small>
+                                                    <h6>RedTulum: habrá un refuerzo clave en Jáchal con una nueva conexión
+</h6>
+                                                    <!-- <p>Desde el lunes, la línea 502 de RedTulum sumará un nuevo servicio entre San José de Jáchal y Entre Ríos, atendiendo una demanda de la comunidad educativa y el público en general.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-habra-un-refuerzo-clave-en-jachal-con-una-nueva-conexion"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">11 Abril, 2025</small>
+                                                    <h6>Modifican recorridos de seis líneas de colectivo para mejorar la conectividad con hospitales y la Terminal de Ómnibus
+</h6>
+                                                    <!-- <p>A partir del lunes 14 de abril, las líneas TEO 1, 2, 3, 101, 123 y 125 implementarán nuevos trayectos. El objetivo es optimizar el acceso a centros clave como el Hospital Rawson, la Estación Terminal de Ómnibus (ETO) y la Facultad de Ingeniería.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modifican-recorridos-de-seis-lineas-de-colectivo-para-mejorar-la-conectividad-con-hospitales-y-la-terminal-de-omnibus"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Z1cMrpbqstJ98Osh_nuevos-saldos-de-emergencias2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">10 Abril, 2025</small>
+                                                    <h6>Conoce las preguntas más frecuentes sobre Boleto Escolar y Docente Gratuito
+</h6>
+                                                    <!-- <p>Las respuestas para facilitar el acceso a este beneficio que representa un paso fundamental para fortalecer el acceso a la educación en toda la provincia.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=conoce-las-preguntas-mas-frecuentes-sobre-boleto-escolar-y-docente-gratuito"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">31 Marzo, 2025</small>
+                                                    <h6>RedTulum anunció desvíos temporales de recorridos por el evento Ironman
+</h6>
+                                                    <!-- <p>La competencia deportiva internacional desembarca nuevamente en la provincia, y contará con varias etapas diarias.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-anuncio-desvios-temporales-de-recorridos-por-el-evento-ironman"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">31 Marzo, 2025</small>
+                                                    <h6>Habilitan paradas de RedTulum por apertura provisoria en Av. Libertador
+</h6>
+                                                    <!-- <p>Durante algunos días, los colectivos volverán a detenerse frente a la Facultad de Ingeniería y la Legislatura, mientras avanza la obra de repavimentación.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=habilitan-paradas-de-redtulum-por-apertura-provisoria-en-av.-libertador"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">26 Marzo, 2025</small>
+                                                    <h6>Cambio de paradas de RedTulum en la Libertador por repavimentación
+</h6>
+                                                    <!-- <p>Gobierno informó que habrá corte total de calzada que afectará el recorrido de varias líneas desde el próximo 27 de marzo.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=cambio-de-paradas-de-redtulum-en-la-libertador-por-repavimentacion"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">07 Marzo, 2025</small>
+                                                    <h6>RedTulum informó que la línea 340 extiende su recorrido en Caucete
+</h6>
+                                                    <!-- <p>Desde el martes 11 de marzo, la empresa El Triunfo ampliará el servicio hasta el barrio El Algarrobo en el departamento Caucete.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-informo-que-la-linea-340-extiende-su-recorrido-en-caucete"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">06 Marzo, 2025</small>
+                                                    <h6>RedTulum comunica desvíos en el transporte público por el Triatlón del Sol 2025
+</h6>
+                                                    <!-- <p>El Ministerio de Gobierno, a través de la Dirección de RedTulum, anunció que los recorridos de varias líneas de colectivos se verán modificados por la competencia deportiva que se realizará el domingo 9 de marzo.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-comunica-desvios-en-el-transporte-publico-por-el-triatlon-del-sol-2025"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZnmF8ZbWFbowezwT_Feriados.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">02 Marzo, 2025</small>
+                                                    <h6>Principales características de la app del transporte público RedTulum
+</h6>
+                                                    <!-- <p>Esta plataforma moderna optimiza la movilidad en el área metropolitana y localidades aledañas.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=principales-caracteristicas-de-la-app-del-transporte-publico-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Z3KIppbqstJ984v7_WEB-Nuevos-Bondis-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">01 Marzo, 2025</small>
+                                                    <h6>Día del Transporte Público: un pilar fundamental en la movilidad urbana
+</h6>
+                                                    <!-- <p>Cada 1 de marzo se celebra el Día Nacional del Transporte Público, una fecha que busca concienciar sobre su importancia y su impacto en la sociedad.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=dia-del-transporte-publico-un-pilar-fundamental-en-la-movilidad-urbana"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZqN8xx5LeNNTxhUB_cortesdecalzadatotal.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">28 Febrero, 2025</small>
+                                                    <h6>RedTulum informó desvíos y paradas de colectivos por la repavimentación de la Av. Libertador
+</h6>
+                                                    <!-- <p>La importante obra de mantenimiento y refacción de una de las principales vías sanjuaninas producirá cambios temporales en el transporte público.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-informo-desvios-y-paradas-de-colectivos-por-la-repavimentacion-de-la-av.-libertador"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZqN8xx5LeNNTxhUB_cortesdecalzadatotal.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">21 Febrero, 2025</small>
+                                                    <h6>Cortes de calzada por el evento "Vive el Carnaval"
+</h6>
+                                                    <!-- <p>RedTulum informó que este sábado 22 de febrero habrá corte de calzada total de 16:00hs a 03:00hs del día siguiente por el evento.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorridos-por-el-evento-vive-el-carnaval"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">20 Febrero, 2025</small>
+                                                    <h6>Modificación de recorridos en líneas 3, 103 y 364
+</h6>
+                                                    <!-- <p>Atendiendo los pedidos de vecinos de diferentes localidades, el trazado de varios recorridos tendrá prontas modificaciones.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorridos-en-lineas-3-103-y-364"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZqN8xx5LeNNTxhUB_cortesdecalzadatotal.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">22 Enero, 2025</small>
+                                                    <h6>Modificaciones de recorridos de RedTulum durante la Vuelta a San Juan 2025
+</h6>
+                                                    <!-- <p>El evento deportivo, que continúa el calendario del ciclismo nacional, se disputará a lo largo de 9 días en diferentes puntos de la provincia.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificaciones-de-recorridos-de-redtulum-durante-la-vuelta-a-san-juan-2025"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZqN8xx5LeNNTxhUB_cortesdecalzadatotal.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">14 Enero, 2025</small>
+                                                    <h6>Líneas afectadas por el 1º Tour del Sol a San Juan 2025
+</h6>
+                                                    <!-- <p>La Dirección encargada de la coordinación del transporte público provincial comunicó las modificaciones en recorridos por la competencia ciclística.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=lineas-afectadas-por-el-1º-tour-del-sol-2025"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Z3KIppbqstJ984v7_WEB-Nuevos-Bondis-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">27 Diciembre, 2024</small>
+                                                    <h6>Orrego presentó las nuevas movilidades de RedTulum en el dique Punta Negra
+</h6>
+                                                    <!-- <p>Se trata de 34 unidades que poseen aire acondicionado.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=orrego-presento-las-nuevas-movilidades-de-redtulum-en-el-dique-punta-negra"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZnmF8ZbWFbowezwT_Feriados.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">23 Diciembre, 2024</small>
+                                                    <h6>Horarios para Navidad y Año Nuevo
+</h6>
+                                                    <!-- <p>Después de más de una década, el servicio de transporte público de colectivos volverá a funcionar el día 25 de diciembre de 2024.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=horarios-para-navidad-y-ano-nuevo"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Z1cMrpbqstJ98Osh_nuevos-saldos-de-emergencias2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">09 Diciembre, 2024</small>
+                                                    <h6>SUBE incrementó el saldo de emergencia de la tarjeta física
+</h6>
+                                                    <!-- <p>Los usuarios del transporte público podrán utilizar el saldo de emergencia sin realizar ningún trámite adicional desde mediados de diciembre.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=sube-incremento-el-saldo-de-emergencia-de-la-tarjeta-fisica"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">25 Noviembre, 2024</small>
+                                                    <h6>Modificación de recorridos en líneas 244, 3, 340, 341 y 364
+</h6>
+                                                    <!-- <p>Desde el día lunes 02/12/2024 la línea 244 de la Empresa Mayo S.R.L. y las líneas 3, 340 341 y 364 de la Empresa El Triunfo S.A. modificarán un tramo de su recorrido a fin mejorar la cobertura en zona del Hospital Rawson, Estación Terminal de Ómnibus de San Juan y microcentro.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorridos-en-lineas-244-3-340-341-y-364"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zx9z_K8jQArTz4Ps_fns-2024-redtulum.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">23 Octubre, 2024</small>
+                                                    <h6>Líneas del Sol: habrá colectivos gratis que llegarán a la FNS 2024
+</h6>
+                                                    <!-- <p>RedTulum informó que colocará colectivos especiales con boleto gratuito, que saldrán desde los cuatro puntos cardinales para que los sanjuaninos lleguen al Estadio del Bicentenario y al Velódromo Vicente Chancay.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=lineas-del-sol-habra-colectivos-gratis-que-llegaran-a-la-fns-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zw_Ih4F3NbkBXhyn_364-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">16 Octubre, 2024</small>
+                                                    <h6>Modificación de recorrido en línea 364
+</h6>
+                                                    <!-- <p>Desde este miércoles 16/10/2024 la línea 364 modifica un tramo de su recorrido a fin de brindar una mejor cobertura para los usuarios de la localidad de Tupelí, Departamento 25 de Mayo.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorrido-en-linea-364"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zu2WY7VsGrYSvomc_festijoven-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">20 Septiembre, 2024</small>
+                                                    <h6>Desvíos de líneas para el  “FestiJoven 2024”
+</h6>
+                                                    <!-- <p>Este sábado 21 de septiembre se llevará adelante el tradicional festejo del Día de la Primavera en el Parque de Mayo, por tal motivo algunas líneas realizarán desvíos en la zona.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=desvios-de-lineas-para-el--festijoven-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zu2WY7VsGrYSvomc_festijoven-web-2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">17 Septiembre, 2024</small>
+                                                    <h6>Llegá al "FestiJoven 2024" con RedTulum
+</h6>
+                                                    <!-- <p>El Ministerio de Gobierno, a través de la Dirección de Coordinación de RedTulum, te invita a vivir el "FestiJoven 2024" en el Parque de Mayo.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=llega-al-festijoven-2024-con-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZtsikRoQrfVKlzHZ_web130anchi.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">06 Septiembre, 2024</small>
+                                                    <h6>Llegá a la "Peña de Anchi" con RedTulum
+</h6>
+                                                    <!-- <p>Este domingo 8 de septiembre se llevará adelante “La Peña del Anchi” en el Centro Ambiental Anchipurac, con entrada libre y gratuita, en horario de 12:30hs a 20:00hs. 
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=llega-a-la-pena-de-anchi-con-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Ztcs6bzzk9ZrW7l0_WEB-NOTA-322.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">03 Septiembre, 2024</small>
+                                                    <h6>RedTulum te lleva al aeropuerto con la Línea 322
+</h6>
+                                                    <!-- <p>RedTulum ofrece un recorrido cómodo y rápido entre la ciudad de San Juan y el Aeropuerto Domingo Faustino Sarmiento a través de la línea 322, que te garantiza un traslado eficiente y puntual.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=redtulum-te-lleva-al-aeropuerto-con-la-linea-322"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZqN8xx5LeNNTxhUB_cortesdecalzadatotal.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">25 Julio, 2024</small>
+                                                    <h6>Desvíos por Maratón Internacional de San Juan
+</h6>
+                                                    <!-- <p>El Ministerio de Gobierno brindó información sobre los devíos de este fin de semana de líneas de transporte público en el marco de la Maratón Internacional.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=desvios-por-maraton-internacional-de-san-juan"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZnmF8ZbWFbowezwT_Feriados.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">05 Julio, 2024</small>
+                                                    <h6>Nuevos horarios en el receso invernal
+</h6>
+                                                    <!-- <p>El Ministerio de Gobierno dio detalles acerca de cómo funcionará RedTulum de acuerdo al período de vacaciones de invierno.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=nuevos-horarios-en-el-receso-invernal"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZoP00h5LeNNTwta6_precios-tarifas-web.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">01 Julio, 2024</small>
+                                                    <h6>Desde este martes impacta en la SUBE la nueva tarifa de transporte
+</h6>
+                                                    <!-- <p>El Ministerio de Gobierno informa que desde este martes 2 de julio de 2024 impactará la nueva tarifa de transporte público, acordada con empresarios de colectivos.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=desde-este-martes-impacta-en-la-sube-la-nueva-tarifa-de-transporte"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZnmF8ZbWFbowezwT_Feriados.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">14 Junio, 2024</small>
+                                                    <h6>Así funcionará el servicio de colectivos durante los fines de semana largos
+</h6>
+                                                    <!-- <p>Con la llegada de dos fines de semana extendidos de forma consecutiva, el Ministerio de Gobierno asegura la circulación del transporte de colectivos.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=asi-funcionara-el-servicio-de-colectivos-durante-los-fines-de-semana-largos"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZnmEo5bWFbowezvP_viajesuniversidadferia.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">05 Junio, 2024</small>
+                                                    <h6>Extensión horaria para el uso del Boleto Escolar por la Feria Educativa
+</h6>
+                                                    <!-- <p>En el marco de la Feria Educativa “Universidad Abierta” que comienza este 6 de junio, se informaron líneas de acceso y extensión de horarios para el uso del boleto escolar.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=extension-horaria-para-el-uso-del-boleto-escolar-por-la-feria-educativa"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZkZmAyol0Zci9ONp_websubenuevaapp.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">16 Mayo, 2024</small>
+                                                    <h6>Registrá tu SUBE desde la nueva App
+</h6>
+                                                    <!-- <p>El lanzamiento de la nueva App SUBE permitirá a los usuarios del servicio de transporte público registrar sus tarjetas personales con un sencillo paso.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=registra-tu-sube-desde-la-nueva-app"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65d77cfa3a605798c18c1dad_EditableCambiodeRecorridoweb.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">30 Abril, 2024</small>
+                                                    <h6>Feriado 1° de Mayo: No habrá servicio de transporte público
+</h6>
+                                                    <!-- <p>Con motivo de la conmemoración del Día Internacional del Trabajador/a, el  servicio de transporte público será suspendido el día miércoles 1° de Mayo.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=feriado-1-de-mayo-no-habra-servicio-de-transporte-publico"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZiZnsfPdc1huKrSZ_WEB3340345.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">22 Abril, 2024</small>
+                                                    <h6>Aumento de frecuencias en líneas 3, 340 y 345
+</h6>
+                                                    <!-- <p>A partir del día martes 23/04/2024 las líneas 3, 340 y 345 de la empresa El Triunfo S.A. aumentarán la frecuencia para brindar un servicio más eficiente.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=aumento-de-frecuencias-en-lineas-3-340-y-345"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZiKbIfPdc1huKpUo_EDITABLEWEB802..jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">19 Abril, 2024</small>
+                                                    <h6>Extensión de línea 802 en el Departamento Valle Fértil
+</h6>
+                                                    <!-- <p>A partir del día lunes 22/04/2024 la línea 802 de la empresa Vallecito S.R.L. hará una extensión del servicio que presta en el Departamento Valle Fértil. 
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=extension-de-la-linea-802-en-el-departamento-valle-fertil"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zh0uuDjCgu4jz0yT_webexpeditovallecito2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">15 Abril, 2024</small>
+                                                    <h6>Asistí a las Fiestas Patronales en Honor a San Expedito con RedTulum
+</h6>
+                                                    <!-- <p>Este viernes 19 de abril se celebran las Fiestas Patronales en Honor a San Expedito en la localidad de Bermejo, Departamento de Caucete.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=asisti-a-las-fiestas-patronales-en-honor-a-san-expedito-con-redtulum-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65d77cfa3a605798c18c1dad_EditableCambiodeRecorridoweb.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">11 Abril, 2024</small>
+                                                    <h6>Cortes de calzada total por “XXXIII Cabalgata de la Fe a la Difunta Correa”
+</h6>
+                                                    <!-- <p>El día viernes 12 y sábado 13 de abril se realizará la “XXXIII Cabalgata de la Fe a la Difunta Correa”.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=cortes-de-calzada-total-por-xxxiii-cabalgata-de-la-fe-a-la-difunta-correa"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZhAGIxrFxhpPBVf6_IRONMANWEB2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">05 Abril, 2024</small>
+                                                    <h6>IRONMAN 70.3 San Juan 2024: Información importante de RedTulum
+</h6>
+                                                    <!-- <p>El día domingo 7 de abril, se realizará la competencia deportiva denominada Triatlón IRONMAN 70.3 San Juan – Argentina.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=ironman-703-san-juan-2024-informacion-importante-de-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/Zgblx8t2UUcvBRzg_notawebsierrasazules.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">29 Marzo, 2024</small>
+                                                    <h6>Ascenso a Sierras Azules con RedTulum 
+</h6>
+                                                    <!-- <p>RedTulum te acerca a las Sierras Azules para que aproveches el cronograma de actividades preparadas.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=ascenso-a-sierras-azules-con-redtulum-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65d77cfa3a605798c18c1dad_EditableCambiodeRecorridoweb.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">22 Marzo, 2024</small>
+                                                    <h6>Modificación de recorridos y horarios para líneas 200, 201 y 202
+</h6>
+                                                    <!-- <p>A partir del lunes 25 de marzo comenzarán a funcionar los recorridos modificados de la línea 201 y los nuevos esquemas horarios para las líneas 200 y 202. 
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorridos-y-horarios-para-lineas-200-201-y-202"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/6596aaf7531ac2845a271d31_placacambiodetarifa2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">14 Marzo, 2024</small>
+                                                    <h6>Nuevas tarifas en pasajes de ómnibus
+</h6>
+                                                    <!-- <p>Desde el día jueves 14 de marzo de 2024 se actualizaron en forma progresiva los valores de las tarifas de pasajes de ómnibus en la Provincia de San Juan. 
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=nuevas-tarifas-en-pasajes-de-omnibus-marzo-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/ZeiCXXUurf2G3Kkf_EditableBoletoEscolar2024web.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">06 Marzo, 2024</small>
+                                                    <h6>Credencial Estudiantil Única 2024
+</h6>
+                                                    <!-- <p>Durante todo el año 2024, la comunidad de estudiantes y docentes de la provincia podrán viajar en cualquier línea de RedTulum presentando la Credencial Estudiantil Única, las que podrán gestionarse en forma presencial y, en algunas empresas, mediante turnos de manera virtual.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=credencial-estudiantil-unica-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65d77cfa3a605798c18c1dad_EditableCambiodeRecorridoweb.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">28 Febrero, 2024</small>
+                                                    <h6>Modificación de recorridos en líneas que conectan Capital con Zonda y Ullum
+</h6>
+                                                    <!-- <p>A partir de este sábado 2 de marzo, se modificarán las líneas 140, 141, 142, 160, 161 y 162  para optimizar el servicio y la cobertura en zona de la Estación Terminal de Ómnibus de San Juan, Barrio Conjunto I, B° Conjunto II y Villa Esperanza.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=modificacion-de-recorridos-en-lineas-que-conectan-capital-con-zonda-y-ullum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65a546457a5e8b1120d589e6_saldoemergenciasubeweb.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">16 Febrero, 2024</small>
+                                                    <h6>Nuevo Saldo de Emergencia en la tarjeta SUBE
+</h6>
+                                                    <!-- <p>A partir de este viernes 16 de enero el Saldo de Emergencia de la tarjeta SUBE será $480.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=nuevo-saldo-de-emergencia-en-la-tarjeta-sube"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65ba694b615e73009ec427dd_boletoescolar2024web.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">31 Enero, 2024</small>
+                                                    <h6>Nueva tarifa del Boleto Escolar 2024
+</h6>
+                                                    <!-- <p>A partir de este jueves 1 de febrero comienza a regir la nueva tarifa del Boleto Escolar para el Ciclo Lectivo 2024.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=nueva-tarifa-del-boleto-escolar-2024"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/65ab1c6638f662e9dd211a43_NOTAWEBGRANDPRIX.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">19 Enero, 2024</small>
+                                                    <h6>Grand Prix San Juan 2024: Información importante de RedTulum
+</h6>
+                                                    <!-- <p>A partir de este domingo 21 y hasta el domingo 28 de enero, se realiza la competencia de ciclismo denominada Grand Prix San Juan 2024. Esta edición contará con un Prólogo y 7 Etapas.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=grand-prix-san-juan-2024-informacion-importante-de-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/659ffa137a5e8b1120d572f4_webgirodelsol2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">08 Enero, 2024</small>
+                                                    <h6>Giro del Sol 2024: Información importante de RedTulum
+</h6>
+                                                    <!-- <p>A partir de este jueves 11 y hasta el domingo 14 de enero, se realiza la XXIIº edición del Giro del Sol 2024. Esta edición contará con 4 etapas.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=giro-del-sol-2024-informacion-importante-de-redtulum"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/6596aaf7531ac2845a271d31_placacambiodetarifa2024.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">02 Enero, 2024</small>
+                                                    <h6>Nuevas tarifas en pasajes de ómnibus
+</h6>
+                                                    <!-- <p>Desde el día viernes 19 de enero de 2024 a partir de las 08:30hs se actualizarán en forma progresiva los valores de las tarifas de pasajes de ómnibus en la Provincia de San Juan. 
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=nuevas-tarifas-en-pasajes-de-omnibus"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/659023be531ac2845a270766_ArmadorPlantillaPlacaRTRedTulum-M_Horariosrecorridos.jpg?auto=format,compress"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">29 Diciembre, 2023</small>
+                                                    <h6>Horarios en el Fin de Semana de Año Nuevo
+</h6>
+                                                    <!-- <p>Este 31 de diciembre las líneas brindarán servicios hasta las 20:00hs y el día lunes 1 de enero no habrá servicio de transporte público de pasajeros.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=horarios-en-el-fin-de-semana-ano-nuevo"></a>
+                                            </div>
+                                        
+                                    
+                                            <div class="novedad enter-y delay-2 swiper-slide">
+                                                <div class="novedad-img">
+                                                    <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum2/a4a05c7a-be82-4047-8f52-4f1356457c44_Placa-Web-RT-Horarios-Fin-An%CC%83o-21.png?auto=compress,format"></div>
+                                                </div>
+                                                <div class="novedad-text">
+                                                    <small class="date">22 Diciembre, 2023</small>
+                                                    <h6>Horarios en el Fin de Semana Navideño
+</h6>
+                                                    <!-- <p>Este 24 de diciembre las líneas prestarán servicios hasta las 20:00hs y el día lunes 25 de diciembre no habrá servicio de transporte público de pasajeros.
+</p> -->
+                                                    <!-- CMS BUTTON -->
+                                                    <button
+                                                        class="button | cms_button"
+                                                        data-bgcolor="#6c244e"
+                                                        data-textcolor="#ffffff"
+                                                    >
+                                                        <span>Leer más
+</span>
+                                                    </button>
+                                                    <!-- CMS BUTTON -->
+                                                </div>
+                                                <a href="novedad?id=horarios-en-fin-de-semana-navideno"></a>
+                                            </div>
+                                        
+                                                                    </div>
+                                <div class="beneficios-slide-arrows novs">
+                                    <div class="beneficios-slide-arrow-left">
+                                        <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 1L2 11L12 21" stroke="white" stroke-width="2"/> </svg>
+                                    </div>
+                                    <div class="beneficios-slide-arrow-right">
+                                        <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1 21L11 11L0.999999 1" stroke="white" stroke-width="2"/> </svg>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+
+                            <div class="home-news-all novs d-f jc-fc enter-y delay-3">
+                                <!-- CMS BUTTON -->
+                                <a
+                                    class="cms_button"
+                                    href="https://www.redtulum.gob.ar/novedades
+"                                     data-bgcolor="#e50063" data-bgcolorhover="#ffffff"
+                                    data-textcolor="#ffffff" data-textcolorhover="#e50063"
+                                >
+                                    <span>Conocé más novedades
+</span>
+                                </a>
+                                <!-- CMS BUTTON -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper d-f jc-sb" id="wrapper-video">
+                        <div class="hero-video enter-y delay-3">
+                            <img data-src="assets/img/hero-video-line-2.png" alt="Red Tulum" class="lazyload">    
+                            <div class="bg lazyload" data-bg="https://images.prismic.io/redtulum/6c2a54f2-f40b-431f-bd12-078a505f65cf_cover-video-hero.jpg?auto=compress,format"></div>
+                            <!-- <iframe id="video" src="https://www.youtube.com/embed/ZoAQetFXXLQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <p></p><div data-oembed="https://vimeo.com/688670982" data-oembed-type="video" data-oembed-provider="vimeo"><iframe src="https://player.vimeo.com/video/688670982?h=77bd732bdb&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>                            <div class="hero-video-inner" id="play-video">
+                                <img data-src="assets/img/video-play.svg" alt="Play" class="lazyload">
+                                <span>Ver video </span>
+                            </div>
+                        </div>
+                        <!-- <div class="hero-video enter-y delay-3">
+                            <img src="assets/img/hero-video-line-2.png" alt="Red Tulum">
+                            <div class="bg" style="background: url(assets/img/cover-video-hero.jpg)"></div>
+                            <iframe id="video" src="https://www.youtube.com/embed/ZoAQetFXXLQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="hero-video-inner" id="play-video">
+                                <img src="assets/img/video-play.svg" alt="Play">
+                                <span>Ver video (0:32)</span>
+                            </div>
+                            <div class="video-container">
+                            </div>
+
+                        </div> -->
+                        <div class="home-2-text">
+                            <h5 class="enter-y c-violet">Conocé cómo está compuesto el sistema de transporte público de San Juan.
+</h5>
+                            <div class="enter-y delay-1">
+                                <p><strong>En una provincia que crece, es necesario que te puedas mover m&aacute;s f&aacute;cil. RedTulum propone un esquema de conectividad urbana, integrado a una infraestructura de transporte moderna, para que el trayecto hacia tu destino cotidiano sea una&nbsp;experiencia agradable, segura y accesible.</strong></p><p>RedTulum consiste en un&nbsp;<strong>sistema integral para la movilidad social</strong>&nbsp;que ampl&iacute;a la conectividad entre distintos puntos de la provincia. El sistema integra peatones, bicicletas, monopatines, motocicletas, autom&oacute;viles y colectivos, promoviendo una provincia m&aacute;s caminable, con menos contaminaci&oacute;n ambiental y sonora.</p>                            </div>
+                        </div>
+                    </div>
+                </section>
+                            
+                <!-- <section id="home-2" data-scroll data-scroll-offset="200">
+                    <img src="assets/img/home-2-line.png" alt="Red Tulum" id="home-2-line">
+                    
+                    <img src="assets/img/home-3-1.jpg" alt="Red Tulum" id="home-3-image">
+                    <img src="assets/img/home-3-line.png" alt="Red Tulum" id="home-3-line">
+                </section> -->
+
+                
+                <section id="home-3" data-scroll data-scroll-offset="400">
+                    <img data-src="assets/img/home-2-grid.png" alt="Red Tulum" id="grid-home-3" class="lazyload">
+                    <div class="wrapper d-f jc-sb ai-s">
+                        <img data-src="assets/img/tube-home-3.png" alt="Red Tulum" class="lazyload">
+                        <div class="hero-3-text">
+                            <img data-src="assets/img/home-3-line-title.png" alt="Red Tulum" class="enter-x lazyload">
+                            <h2 class="enter-y delay-1">Redes de transporte
+</h2>
+                            <div class="big c-yellow enter-y delay-2"><p><strong>El transporte p&uacute;blico de colectivos es el eje de RedTulum. El sistema de &oacute;mnibus est&aacute; compuesto por nuevos recorridos que abarcan el territorio de la provincia, mejorando la oferta actual.</strong></p></div>
+                            <div class="c-white enter-y delay-3"><p>La nueva red propone el traspaso de un sistema centralizado a uno descentralizado, permitiendo la r&aacute;pida movilidad de un punto perif&eacute;rico a otro, sin pasar por el microcentro, tener conexiones m&aacute;s directas entre departamentos antes no conectados y paradas m&aacute;s modernas, seguras y confortables.</p></div>
+                                                            <div class="enter-y delay-4" style="margin-top: 70px;">
+                                    <!-- CMS BUTTON -->
+                                    <a
+                                        class="cms_button"
+                                        href="https://www.redtulum.gob.ar/novedad?id=que-es-redtulum-y-por-que-mejora-la-cobertura" target="_blank"                                        data-bgcolor="#ffffff" data-bgcolorhover="#e50063"
+                                        data-textcolor="#e50063" data-textcolorhover="#ffffff"
+                                    >
+                                        <span>Conocé más
+</span>
+                                    </a>
+                                    <!-- CMS BUTTON -->
+                                </div>
+                             
+                        </div>
+                        <div class="hero-3-image enter-y delay-3">
+                            <img data-src="https://images.prismic.io/redtulum/433241dd-de46-40c9-9010-1477dde1720f_RedesdeTransporteBloque2.jpg?auto=compress,format" alt="Red Tulum Sistema de colectivos" data-scroll data-scroll-speed="2" class="lazyload">
+                        </div>
+                    </div>
+                    <img data-src="assets/img/hero-lines-5.png" id="home-3-line-2" alt="Red Tulum" class="lazyload">
+                    <!-- <img src="assets/img/home-3-line-2.png" alt="Red Tulum" id="home-3-line-2"> -->
+                </section>
+
+                <section id="buses-section" data-scroll>
+                    <img data-src="https://images.prismic.io/redtulum/cd8cc0a6-5825-417e-b564-862856a56c70_buses.png?auto=compress,format" class="enter-x delay-3 lazyload" alt="RedTulum">
+                    <div class="wrapper d-f jc-fs">
+                        <div class="text">
+                            <h5 class="enter-y delay-1 c-violet">Líneas de colectivos
+</h5>
+                            <div class="enter-y delay-2"><p>El Sistema de transporte P&uacute;blico de RedTulum est&aacute; compuesto por una Red Primaria y una Red Secundaria. Conoc&eacute; cu&aacute;les son los n&uacute;meros y colores de cada una de las l&iacute;neas que pasan por cada departamento.</p></div>
+                                                            <div class="enter-y delay-4">
+                                    <!-- CMS BUTTON -->
+                                    <a
+                                        class="cms_button"
+                                        href="lineas"                                         data-bgcolor="#e50063" data-bgcolorhover="#ffffff"
+                                        data-textcolor="#ffffff" data-textcolorhover="#e50063"
+                                    >
+                                        <span>Ingresá
+</span>
+                                    </a>
+                                    <!-- CMS BUTTON -->
+                                </div>
+                             
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sube" data-scroll data-scroll-offset="200" class="home-planifica">
+                    <div class="wrapper">
+                        <img data-src="https://images.prismic.io/redtulum/6a683acd-c313-4a2c-95a4-7eb89890ea4d_app.png?auto=compress,format" alt="Planificá tu viaje" class="enter-x-r delay-2 lazyload"> 
+                        <div class="text">
+                            <h5 class="enter-y">Planificá tu viaje
+</h5>
+                            <div class="enter-y delay-1"><p>Con la app de RedTulum pod&eacute;s llegar a destino desde tu ubicaci&oacute;n actual en simples pasos. Descargala gratis.</p></div>
+                            <div class="enter-y delay-2 d-f ai-c">
+                                 
+                                <div class="downloads">
+                                                                        <a href="https://apps.apple.com/ar/app/redtulum/id1546883343?itsct=apps_box&itscg=30200" target="_blank" rel="noopener noreferrer" class="b-svg bg-">
+                                        <svg width="25" height="29" viewBox="0 0 25 29" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M20.3691 15.5318C20.3567 13.2197 21.3816 11.4746 23.4561 10.1894C22.2954 8.4947 20.5419 7.56229 18.2267 7.37959C16.0349 7.2032 13.6394 8.6837 12.7626 8.6837C11.8365 8.6837 9.71267 7.4426 8.04568 7.4426C4.60057 7.4993 0.939362 10.2461 0.939362 15.8342C0.939362 17.4848 1.23572 19.19 1.82842 20.9498C2.6187 23.2619 5.47111 28.9319 8.44699 28.8374C10.0029 28.7996 11.1018 27.7097 13.1269 27.7097C15.0903 27.7097 16.109 28.8374 17.8439 28.8374C20.8445 28.7933 23.4252 23.6399 24.1784 21.3215C20.153 19.3874 20.3691 15.6515 20.3691 15.5318ZM16.8746 5.18719C18.5601 3.14599 18.4057 1.28749 18.3563 0.61969C16.8684 0.70789 15.1458 1.65289 14.1642 2.81839C13.0837 4.06579 12.4478 5.60929 12.5836 7.34809C14.195 7.4741 15.6644 6.62989 16.8746 5.18719Z" fill="#FFED00"/> </svg>
+                                    </a>
+                                     
+                                                                        <a href="https://play.google.com/store/apps/details?id=com.sanjuan.redtulum " target="_blank" rel="noopener noreferrer" class="b-svg bg-">
+                                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.9211 10.9239L3.78886 1.06084L16.6803 8.24535L13.9211 10.9239ZM1.14446 0.481445C0.547638 0.784514 0.148224 1.33717 0.148224 2.05473V21.723C0.148224 22.4405 0.547638 22.9932 1.14446 23.2963L12.9249 11.8866L1.14446 0.481445ZM20.6653 10.5362L17.9612 9.01639L14.9449 11.8911L17.9612 14.7658L20.7203 13.246C21.5467 12.6086 21.5467 11.1735 20.6653 10.5362ZM3.78886 22.7213L16.6803 15.5368L13.9211 12.8582L3.78886 22.7213Z" fill="#FFED00"/> </svg>
+                                    </a>
+                                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="beneficios" data-scroll>
+                    <img data-src="assets/img/beneficios-bg.png" alt="Red Tulum" id="beneficios-grid" class="lazyload">
+                    <div class="wrapper">
+                        <img data-src="assets/img/beneficios-line.png" alt="Beneficios" class="lazyload">
+                        <h4 class="enter-y c-violet">Beneficios
+</h4>
+                        <div id="beneficios-slide">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide enter-y delay-1">
+                                        <div class="d-f">
+                                            <div class="number">1</div>
+                                            <div class="text">
+                                                <strong>Accesibilidad
+</strong>
+                                                <span>Llegá a nuevos destinos
+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="swiper-slide enter-y delay-2">
+                                        <div class="d-f">
+                                            <div class="number">2</div>
+                                            <div class="text">
+                                                <strong>Ecología
+</strong>
+                                                <span>Viajando en colectivo, ayudás a reducir la contaminación del medio ambiente
+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="swiper-slide enter-y delay-3">
+                                        <div class="d-f">
+                                            <div class="number">3</div>
+                                            <div class="text">
+                                                <strong>Transbordo
+</strong>
+                                                <span>Combiná recorridos
+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    <div class="swiper-slide enter-y delay-4">
+                                        <div class="d-f">
+                                            <div class="number">4</div>
+                                            <div class="text">
+                                                <strong>Planificá tus viajes
+</strong>
+                                                <span>Descargándote la APP podés programar tus recorridos y ver las rutas disponibles para llegar a tu destino
+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                <div class="swiper-slide" style="background: transparent; box-shadow: none;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="beneficios-slide-arrows">
+                            <div class="beneficios-slide-arrow-left">
+                                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 1L2 11L12 21" stroke="white" stroke-width="2"/> </svg>
+                            </div>
+                            <div class="beneficios-slide-arrow-right">
+                                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1 21L11 11L0.999999 1" stroke="white" stroke-width="2"/> </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="sube" data-scroll data-scroll-offset="200" class="sube_section">
+                    <div class="wrapper d-f jc-sb">
+                        <img data-src="https://images.prismic.io/redtulum/a36ca9d2-434a-436b-bc9e-e10ea1cdf328_tarjeta-sube-home.png?auto=compress,format" alt="Sube" class="enter-x-r delay-2 lazyload">
+                        <div class="text">
+                            <h5 class="enter-y">RedTulum sigue funcionando con la tarjeta SUBE.
+</h5>
+                            <div class="enter-y delay-1"><p>Conoc&eacute; los puntos para cargar tu tarjeta y la ubicaci&oacute;n de las terminales autom&aacute;ticas m&aacute;s cercanas.</p></div>
+                                
+                                <div class="enter-y delay-2">
+                                    <!-- CMS BUTTON -->
+                                    <a
+                                        class="cms_button desk"
+                                        href="https://bit.ly/RtLinkbtsjsj02" target="_blank"                                        data-bgcolor="#00b0eb" data-bgcolorhover="#ffffff"
+                                        data-textcolor="#ffffff" data-textcolorhover="#00b0eb"
+                                    >
+                                        <span>Conocé más
+</span>
+                                    </a>
+                                    <!-- CMS BUTTON -->
+                                </div>
+                             
+                        </div>
+                    </div>
+                    <img data-src="assets/img/sube-bg.png" alt="Sube" class="enter-x-r delay-3 lazyload">
+                    <div class="enter-y delay-2">
+                                
+                                    <!-- CMS BUTTON -->
+                                    <a
+                                        class="cms_button mob"
+                                        href="https://bit.ly/RtLinkbtsjsj02" target="_blank"                                        data-bgcolor="#00b0eb" data-bgcolorhover="#ffffff"
+                                        data-textcolor="#ffffff" data-textcolorhover="#00b0eb"
+                                    >
+                                        <span>Conocé más
+</span>
+                                    </a>
+                                    <!-- CMS BUTTON -->
+                             
+                        </div>
+                </section>
+
+
+                <section id="newsletter" data-scroll>
+                    <div class="wrapper">
+                        <div class="news-wrap enter-x-r">
+                            <h5>Suscribite a nuestro newsletter
+</h5>
+                            <form action="https://gob.us7.list-manage.com/subscribe/post?u=599ddc45073a513fc7ff701ec&amp;id=9ffbd9a156" method="post" class="d-f ai-c">
+                                <input type="email" placeholder="Dejanos tu correo electrónico
+" name="EMAIL" required="">
+
+                                <!-- CMS BUTTON -->
+                                <button type="submit" class="button cms_button" name="subscribe"
+                                    data-bgcolor="#e50063" data-bgcolorhover="#ffffff"
+                                    data-textcolor="#ffffff" data-textcolorhover="#e50063"
+                                >
+                                    <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.583 8.57676L22.0689 1.65516V0.652035C22.0689 0.300939 21.7679 0 21.4168 0L0.652035 0.0501565C0.300939 0.0501565 0 0.351096 0 0.702191V1.75548L10.583 8.57676Z" fill="white"/>
+                                        <path d="M10.583 11.0847L0 4.21324V15.4483C0 15.7994 0.300939 16.1003 0.652035 16.1003L21.4168 16.0502C21.7679 16.0502 22.0689 15.7492 22.0689 15.3981V4.16309L10.583 11.0847Z" fill="white"/>
+                                    </svg>
+                                    <span>Suscribirme
+</span>
+                                </button>
+                                <!-- CMS BUTTON -->
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                                
+<footer>
+    <img src="assets/img/footer-bg.png" alt="Red Tulum" id="footer-grid">
+    
+    <div class="wrapper">
+        <div class="discover-more">
+            <a href="app">
+                <span>Descubre más:</span>
+                <span class="sectionmore">App</span>
+                <div><svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.44827 17.6035L9.55172 9.50007L1.44827 1.39662" stroke="#E50063" stroke-width="2"/>
+                    </svg>
+                </div>
+            </a>
+        </div>
+        
+        <div class="row d-f ai-c jc-sb">
+            <div class="footer-column column-1">
+                <svg width="245" height="61" viewBox="0 0 245 61" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.96666 24.2986H17.8438V58.7379C17.8438 59.8156 18.7072 60.7464 19.8105 60.7464H27.773C28.8283 60.7464 29.7397 59.8646 29.7397 58.7379V48.5481H69.4086C70.4639 48.5481 71.3752 47.6663 71.3752 46.5396V38.4074C71.3752 37.3296 70.5118 36.3988 69.4086 36.3988H53.5314V2.00855C53.5314 0.930791 52.668 0 51.5648 0H43.5542C42.499 0 41.5876 0.881803 41.5876 2.00855V12.1493H1.96666C0.86341 12.1493 0 13.0311 0 14.1578V22.29C0 23.3678 0.86341 24.2986 1.96666 24.2986ZM29.7397 24.2986H41.6356V36.4478H29.7397V24.2986Z" fill="white"/> <path d="M97.4216 48.6467H92.6249C91.9533 48.6467 91.2818 48.3038 90.8501 47.7159L85.9574 40.7595H83.607V47.0301C83.607 47.9119 82.8875 48.6467 82.0241 48.6467H78.4745C77.6111 48.6467 76.8916 47.9119 76.8916 47.0301V25.9648C76.8916 25.083 77.6111 24.3481 78.4745 24.3481H88.5476C90.0826 24.3481 91.4257 24.5931 92.5769 25.034C93.7281 25.4749 94.6875 26.1118 95.4549 26.8956C96.2224 27.6794 96.798 28.5612 97.1818 29.59C97.5655 30.6187 97.7574 31.6475 97.7574 32.7253C97.7574 33.4601 97.6614 34.1949 97.5175 34.8808C97.3736 35.5666 97.1338 36.2525 96.75 36.8403C96.3663 37.4772 95.8387 38.0161 95.2151 38.555C94.5436 39.0938 93.7281 39.5837 92.7208 40.0246L98.0931 47.128C98.6208 47.7649 98.1891 48.6467 97.4216 48.6467ZM83.655 29.7859V35.6156H88.5956C89.459 35.6156 90.1306 35.3217 90.5143 34.7828C90.898 34.1949 91.1379 33.5581 91.1379 32.8232C91.1379 32.0394 90.946 31.3536 90.5143 30.7167C90.0826 30.0799 89.4111 29.7859 88.5476 29.7859H83.655Z" fill="white"/> <path d="M109.845 31.0591C111.332 31.0591 112.723 31.304 113.922 31.7939C115.169 32.2838 116.177 32.9697 116.944 33.9004C117.759 34.8312 118.287 35.958 118.623 37.2807C118.863 38.4074 118.911 39.6812 118.671 41.1018C118.623 41.5427 118.239 41.8367 117.807 41.8367H106.823C106.919 42.2286 107.111 42.5715 107.398 42.8164C107.686 43.0614 107.974 43.3063 108.358 43.5023C108.742 43.6983 109.077 43.8452 109.461 43.8942C109.845 43.9922 110.229 43.9922 110.564 43.9922C111.476 43.9922 112.291 43.8452 113.011 43.6003C113.49 43.4533 113.922 43.2084 114.306 42.9634C114.642 42.7675 115.121 42.8164 115.361 43.1594L117.328 45.4129C117.664 45.8048 117.616 46.4416 117.184 46.7356C116.368 47.3724 115.409 47.9113 114.402 48.2542C113.107 48.6951 111.716 48.9401 110.277 48.9401C108.933 48.9401 107.686 48.7441 106.487 48.4012C105.288 48.0583 104.281 47.5194 103.369 46.7846C102.458 46.0497 101.786 45.1679 101.259 44.0412C100.731 42.9144 100.491 41.5917 100.491 39.9751C100.491 38.4074 100.779 37.0847 101.307 35.909C101.834 34.7822 102.554 33.8025 103.465 33.1166C104.377 32.4308 105.336 31.8429 106.487 31.5C107.59 31.255 108.694 31.0591 109.845 31.0591ZM112.915 37.7706C112.915 37.3297 112.723 36.9378 112.435 36.6438C112.147 36.3499 111.764 36.105 111.332 35.958C110.9 35.811 110.42 35.713 109.941 35.713C109.461 35.713 108.981 35.762 108.55 35.909C108.118 36.056 107.734 36.3009 107.398 36.5948C107.063 36.8888 106.871 37.2807 106.823 37.7706H112.915Z" fill="white"/> <path d="M135.747 24.3477H139.153C139.968 24.3477 140.592 24.9845 140.592 25.8173V47.2255C140.592 48.0094 139.968 48.6462 139.201 48.6462H135.795C135.363 48.6462 134.98 48.3033 134.884 47.8624L134.74 46.7846C134.02 47.6174 133.157 48.2053 132.15 48.4993C131.142 48.8422 130.183 48.9402 129.224 48.9402C126.777 48.7932 124.859 47.9604 123.515 46.4417C122.172 44.9231 121.549 42.8165 121.549 40.0731C121.549 38.7504 121.741 37.5747 122.124 36.4479C122.508 35.3702 123.036 34.4394 123.755 33.6066C124.475 32.8228 125.338 32.1859 126.346 31.745C127.353 31.3041 128.456 31.1081 129.703 31.1081C130.807 31.1081 131.718 31.2551 132.485 31.598C133.253 31.941 133.876 32.3819 134.356 32.9697V25.7683C134.308 24.9845 134.932 24.3477 135.747 24.3477ZM131.094 36.252C130.135 36.252 129.367 36.5949 128.696 37.2318C128.072 37.8686 127.737 38.7994 127.737 40.0241C127.737 41.2489 128.072 42.1307 128.696 42.8165C129.32 43.4534 130.135 43.7963 131.094 43.7963C131.622 43.7963 132.102 43.6983 132.485 43.5024C132.917 43.3064 133.253 43.0125 133.541 42.7185C133.828 42.3756 134.068 42.0327 134.212 41.5918C134.356 41.1509 134.452 40.71 134.452 40.2691C134.452 39.7792 134.356 39.2403 134.212 38.7994C134.068 38.3095 133.828 37.8686 133.589 37.5257C133.301 37.1828 132.965 36.8889 132.533 36.6439C132.102 36.399 131.622 36.252 131.094 36.252Z" fill="white"/> <path d="M149.85 29.9814H144.334C143.566 29.9814 142.943 29.3445 142.943 28.5607V25.7683C142.943 24.9845 143.566 24.3477 144.334 24.3477H162.13C162.897 24.3477 163.521 24.9845 163.521 25.7683V28.5607C163.521 29.3445 162.897 29.9814 162.13 29.9814H156.566V47.1766C156.566 48.0094 155.942 48.6462 155.127 48.6462H151.289C150.474 48.6462 149.85 48.0094 149.85 47.1766V29.9814Z" fill="white"/> <path d="M168.317 31.4507C169.084 31.4507 169.708 32.0875 169.708 32.8714V40.9056C169.708 41.4445 169.756 41.8854 169.9 42.2283C170.044 42.5712 170.188 42.8651 170.427 43.1101C170.619 43.355 170.907 43.502 171.195 43.6C171.483 43.6979 171.77 43.7469 172.058 43.7469C172.826 43.7469 173.497 43.502 174.073 43.0121C174.649 42.5222 174.936 41.6894 174.936 40.5626V32.9204C174.936 32.1365 175.56 31.4507 176.375 31.4507H179.733C180.501 31.4507 181.172 32.0875 181.172 32.9204V47.1762C181.172 47.96 180.548 48.5968 179.781 48.5968H176.423C175.992 48.5968 175.608 48.2539 175.512 47.813L175.368 46.7353C174.649 47.5681 173.785 48.2049 172.826 48.5479C171.866 48.8908 170.955 49.0378 170.044 49.0378C169.18 49.0378 168.317 48.8908 167.549 48.6458C166.734 48.4009 166.062 47.911 165.439 47.3231C164.815 46.6863 164.384 45.8535 164 44.8247C163.664 43.7959 163.472 42.5222 163.472 41.0035V32.9204C163.472 32.1365 164.096 31.4997 164.863 31.4997H168.317V31.4507Z" fill="white"/> <path d="M200.551 31.4507C201.319 31.4507 201.942 32.0875 201.942 32.8714V40.9056C201.942 41.4445 201.99 41.8854 202.134 42.2283C202.278 42.5712 202.422 42.8651 202.662 43.1101C202.854 43.355 203.141 43.502 203.429 43.6C203.717 43.6979 204.005 43.7469 204.293 43.7469C205.06 43.7469 205.732 43.502 206.307 43.0121C206.883 42.5222 207.171 41.6894 207.171 40.5626V32.9204C207.171 32.1365 207.794 31.4507 208.61 31.4507H211.967C212.735 31.4507 213.406 32.0875 213.406 32.9204V47.1762C213.406 47.96 212.783 48.5968 212.015 48.5968H208.658C208.226 48.5968 207.842 48.2539 207.746 47.813L207.602 46.7353C206.883 47.5681 206.02 48.2049 205.06 48.5479C204.101 48.8908 203.189 49.0378 202.278 49.0378C201.415 49.0378 200.551 48.8908 199.784 48.6458C198.968 48.4009 198.297 47.911 197.673 47.3231C197.05 46.6863 196.618 45.8535 196.234 44.8247C195.898 43.7959 195.707 42.5222 195.707 41.0035V32.9204C195.707 32.1365 196.33 31.4997 197.098 31.4997H200.551V31.4507Z" fill="white"/> <path d="M191.63 25.768V47.1762C191.63 48.009 191.006 48.6459 190.191 48.6459H186.881C186.065 48.6459 185.442 48.009 185.442 47.1762V25.768C185.442 24.9352 186.065 24.2983 186.881 24.2983H190.191C190.958 24.2983 191.63 24.9352 191.63 25.768Z" fill="white"/> <path d="M229.283 48.646C228.516 48.646 227.892 48.0091 227.892 47.2253V39.0931C227.892 38.1133 227.748 37.4275 227.413 37.0356C227.125 36.6437 226.693 36.4477 226.118 36.4477C225.59 36.4477 225.11 36.6437 224.631 37.0846C224.151 37.5255 223.911 38.2113 223.911 39.1911V47.1763C223.911 47.9601 223.287 48.597 222.52 48.597H219.066C218.299 48.597 217.675 47.9601 217.675 47.1763V32.9205C217.675 32.1367 218.299 31.4998 219.066 31.4998H222.232C222.616 31.4998 223 31.7938 223.096 32.1857L223.383 33.3614C223.911 32.6266 224.583 32.0877 225.446 31.6958C226.309 31.3039 227.173 31.1569 228.036 31.1569C228.9 31.1569 229.715 31.4018 230.435 31.7938C231.202 32.1857 231.778 32.7735 232.209 33.6064C232.929 32.7245 233.744 32.0877 234.656 31.6958C235.567 31.3039 236.622 31.1079 237.774 31.1079C238.685 31.1079 239.5 31.2549 240.316 31.5488C241.083 31.8427 241.755 32.3326 242.378 32.9695C242.954 33.6064 243.386 34.4392 243.721 35.4679C244.057 36.4967 244.201 37.7214 244.201 39.0931V47.2253C244.201 48.0091 243.578 48.646 242.81 48.646H239.356C238.589 48.646 237.965 48.0091 237.965 47.2253V39.0931C237.965 38.2113 237.774 37.5255 237.438 37.1336C237.102 36.7417 236.67 36.5457 236.239 36.5457C235.711 36.5457 235.231 36.7417 234.752 37.1336C234.272 37.5255 234.032 38.2113 234.032 39.1421V47.1273C234.032 47.9111 233.409 48.548 232.641 48.548H229.283V48.646Z" fill="white"/> </svg>
+            </div>
+            <div class="footer-column column-2">
+                <a href="mailto:ayuda@redtulum.gob.ar
+" class="email">ayuda@redtulum.gob.ar
+</a>
+            </div>
+        </div>
+        <div class="row d-f ai-c jc-sb">
+            <div class="footer-column column-1">
+                <img src="assets/img/footer-line-izq.png" alt="Footer">
+            </div>
+            <div class="footer-column column-2">
+                <nav class="d-f">
+                    <!-- <div><a class="js-site-link" href="redes-de-transporte">Redes de transporte</a></div>
+                    <div><a class="js-site-link" href="puntos-de-conexion">Puntos de conexión</a></div> -->
+                    <!-- <div><a class="js-site-link" href="app">App</a></div>
+                    <div><a class="js-site-link" href="preguntas-frecuentes">Ayuda</a></div>
+                    <div><a class="js-site-link" href="novedades">Novedades</a></div>
+                    <div><a class="js-site-link" href="https://moovitapp.com/san_juan-6137/poi/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg" target="_blank" rel="noopener noreferrer">Planificá tu viaje</a></div> 
+                    <div><a class="js-site-link" href="lineas">Líneas</a></div> 
+                    <div><a class="js-site-link" href="contacto">Contacto</a></div> -->
+
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="app
+"
+                                                    >
+                            App
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="https://bit.ly/RtLinkbtsjsj20
+"
+                            target="_blank"                         >
+                            Planificá tu viaje 
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="novedades
+"
+                                                    >
+                            Novedades
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="preguntas-frecuentes
+"
+                                                    >
+                            Ayuda
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="https://bit.ly/3gdUg36
+"
+                                                    >
+                            Líneas
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="https://www.redtulum.gob.ar/novedad?id=conoce-nuestros-canales-de-contacto
+"
+                                                    >
+                            Canales de Contacto
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="contacto
+"
+                                                    >
+                            Formulario Web
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="tel:0800 333 8858
+"
+                                                    >
+                            0800 333 8858
+                        </a>
+                    </div>
+                                        <div>
+                        <a
+                            class="js-site-link"
+                            href="https://tarjetasube.sube.gob.ar/
+"
+                            target="_blank"                         >
+                            Tarjeta SUBE
+                        </a>
+                    </div>
+                                    </nav>    
+            </div>
+        </div>
+        <div class="row d-f ai-c jc-sb">
+            <div class="footer-column column-1">
+                <a href="tel:0800 333 8858
+">0800 333 8858
+</a>
+                <!-- <a href="tel:0264-4306300">0264-4306300</a> -->
+                <a href="https://goo.gl/maps/bSq9nDWhVy437BmY9" target="_blank">
+                    Av Libertador San Martín 750 4to piso, núcleo 3 (este), CP 5400, San Juan.
+                </a>
+            </div>
+            <div class="footer-column column-2">
+                <div class="redes">
+                    <a href="https://www.facebook.com/redtulumsj" target="_blank" rel="noopener noreferrer"><svg width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18.6894 21.375L19.7265 14.4979H13.2419V10.0351C13.2419 8.15367 14.1478 6.31973 17.052 6.31973H20V0.464609C20 0.464609 17.3248 0 14.767 0C9.42674 0 5.93611 3.29383 5.93611 9.25656V14.4979H0V21.375H5.93611V38H13.2419V21.375H18.6894Z" fill="#FFED00"/> </svg> </a>
+                    <a href="https://twitter.com/redtulumsj" target="_blank" rel="noopener noreferrer"><svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M34.094 7.72575C34.1181 8.0648 34.1181 8.40392 34.1181 8.74297C34.1181 19.0843 26.2819 31 11.9594 31C7.54696 31 3.44799 29.7163 0 27.4883C0.626928 27.5609 1.22966 27.5852 1.88071 27.5852C5.52153 27.5852 8.87311 26.35 11.5495 24.243C8.12565 24.1703 5.25634 21.918 4.26774 18.818C4.75002 18.8906 5.23222 18.939 5.73862 18.939C6.43783 18.939 7.13713 18.8421 7.7881 18.6727C4.21957 17.946 1.54309 14.7976 1.54309 10.9953V10.8985C2.57985 11.4797 3.78554 11.843 5.06337 11.8914C2.96564 10.4867 1.59133 8.08903 1.59133 5.37651C1.59133 3.92341 1.97705 2.59138 2.65222 1.42887C6.486 6.17574 12.2487 9.27569 18.7106 9.61481C18.5901 9.03356 18.5177 8.42815 18.5177 7.82267C18.5177 3.51168 21.9898 0 26.3058 0C28.5482 0 30.5736 0.944529 31.9962 2.47031C33.7563 2.13127 35.4441 1.47733 36.9391 0.581254C36.3604 2.3977 35.1307 3.92348 33.5152 4.89217C35.0825 4.72272 36.6016 4.28668 38 3.68128C36.9393 5.23121 35.613 6.61163 34.094 7.72575Z" fill="#FFED00"/> </svg> </a>
+                    <a href="https://www.instagram.com/redtulumsj/" target="_blank" rel="noopener noreferrer"><svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M17.0038 8.52644C12.1797 8.52644 8.28857 12.5329 8.28857 17.5C8.28857 22.4671 12.1797 26.4736 17.0038 26.4736C21.8279 26.4736 25.719 22.4671 25.719 17.5C25.719 12.5329 21.8279 8.52644 17.0038 8.52644ZM17.0038 23.334C13.8863 23.334 11.3378 20.7177 11.3378 17.5C11.3378 14.2823 13.8788 11.666 17.0038 11.666C20.1288 11.666 22.6698 14.2823 22.6698 17.5C22.6698 20.7177 20.1213 23.334 17.0038 23.334ZM28.1083 8.15938C28.1083 9.32305 27.1981 10.2524 26.0755 10.2524C24.9453 10.2524 24.0427 9.31524 24.0427 8.15938C24.0427 7.00351 24.9529 6.06633 26.0755 6.06633C27.1981 6.06633 28.1083 7.00351 28.1083 8.15938ZM33.8805 10.2837C33.7516 7.47992 33.1296 4.99637 31.1347 2.95018C29.1475 0.903994 26.7354 0.263584 24.0124 0.123006C21.2059 -0.0410019 12.7941 -0.0410019 9.98762 0.123006C7.27217 0.255774 4.86012 0.896184 2.86525 2.94237C0.870385 4.98856 0.255996 7.47211 0.119465 10.2759C-0.0398215 13.1655 -0.0398215 21.8267 0.119465 24.7163C0.24841 27.5201 0.870385 30.0036 2.86525 32.0498C4.86012 34.096 7.26458 34.7364 9.98762 34.877C12.7941 35.041 21.2059 35.041 24.0124 34.877C26.7354 34.7442 29.1475 34.1038 31.1347 32.0498C33.122 30.0036 33.744 27.5201 33.8805 24.7163C34.0398 21.8267 34.0398 13.1733 33.8805 10.2837ZM30.2549 27.8169C29.6632 29.3476 28.5179 30.5269 27.0236 31.1439C24.7861 32.0576 19.4765 31.8468 17.0038 31.8468C14.5311 31.8468 9.21394 32.0498 6.98394 31.1439C5.49727 30.5347 4.35192 29.3554 3.75271 27.8169C2.86525 25.5129 3.07005 20.046 3.07005 17.5C3.07005 14.954 2.87284 9.47925 3.75271 7.18314C4.34434 5.6524 5.48968 4.47311 6.98394 3.85613C9.22153 2.94237 14.5311 3.15324 17.0038 3.15324C19.4765 3.15324 24.7936 2.95018 27.0236 3.85613C28.5103 4.4653 29.6557 5.64459 30.2549 7.18314C31.1423 9.48706 30.9375 14.954 30.9375 17.5C30.9375 20.046 31.1423 25.5208 30.2549 27.8169Z" fill="#FFED00"/> </svg> </a>                  
+                </div>
+                <img class="lin-fot" src="assets/img/footer-line-der.png" alt="Footer">
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="wrapper d-f ai-c jc-sb">
+            <p>®2026 Todos los derechos reservados. 
+            <a href="terminos-y-condiciones">Términos, condiciones y privacidad.</a>
+            </p>
+            <div class="footer-bottom-img">
+                <img src="assets/img/footer/logo-gobierno de san juan.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer> 
+                 
+
+            </div>
+
+        </div>
+        
+    </main>
+    
+    
+<div class="popup" data-show="false">
+    <div class="popup-overlay"></div>
+    <div class="container">
+        <button class="exit">
+            <span></span>
+            <span></span>
+        </button>
+        <div class="back-color"></div>
+        <div class="content">
+            <div class="text">
+                <small>
+                    2022-12-23                </small>
+                <div class="container-text">
+                    <h3>
+                        ¿Qué es RedTulum y por qué mejora la cobertura en San Juan?
+                    </h3>
+                    <p>RedTulum es un sistema de movilidad social que propone una nueva forma de transporte&nbsp;</p>                </div>
+                                <a href="https://www.redtulum.gob.ar/novedad?id=que-es-redtulum-y-por-que-mejora-la-cobertura
+" target="_blank" class="button">
+                    <span>Ver la nota
+</span>
+                </a>
+                            </div>
+            <div class="img" style="background-image: url(https://images.prismic.io/redtulum2/bfb8824f-1298-4f05-8ad5-6860445add6b_PlacaRT+Que+es+RedTulum+mar22.png?auto=compress,format)"></div>
+        </div>
+    </div>
+</div>    <script defer src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script defer src="dist/vendor/jquery.zoom.min.js"></script>
+<script defer src="https://player.vimeo.com/api/player.js"></script>
+
+<script src="dist/zoomist.min.js"></script>
+
+
+
+
+<!-- <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=redtulum"></script> -->
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=redtulum2"></script>
+
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<div id="scripts"></div>
+<script defer src="dist/main.js?v=27"></script>
+
+<!-- <script defer>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2452936,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->	
+</body>
+</html>
