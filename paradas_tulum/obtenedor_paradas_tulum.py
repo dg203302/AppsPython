@@ -6,17 +6,8 @@ latitud = -31.5375
 longitud = -68.5364
 timeout_default=3000
 ACTION_TIMEOUT_MS = 15000
+numeros_de_lineas = ["10","121"]
 
-# Mapa: linea -> URL de la línea en Moovit
-urls_por_linea = {
-        "440-b": "https://moovitapp.com/tripplan/san_juan-6137/lines/440-b/70390902/6040975/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "440-c": "https://moovitapp.com/tripplan/san_juan-6137/lines/440-c/70390906/6040970/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "440-d": "https://moovitapp.com/tripplan/san_juan-6137/lines/440-d/72876318/6080275/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "441-b": "https://moovitapp.com/tripplan/san_juan-6137/lines/441-b/70390900/6040982/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "441-c": "https://moovitapp.com/tripplan/san_juan-6137/lines/441-c/70390899/6040971/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "441-d": "https://moovitapp.com/tripplan/san_juan-6137/lines/441-d/70390903/6040973/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-        "441-e": "https://moovitapp.com/tripplan/san_juan-6137/lines/441-e/70390901/6040972/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg",
-}
 Paradas_por_linea = {}
 def _guardar_json(salida, data):
     salida.write_text(
@@ -48,10 +39,15 @@ def main():
         salida = Path(__file__).with_name("paradas_por_linea.json")
         pag = contexto.new_page()
         try:
-            for linea, url in urls_por_linea.items():
+            for linea in numeros_de_lineas:
                 try:
-                    pag.goto(url, wait_until="domcontentloaded")
+                    pag.goto('https://moovitapp.com/tripplan/san_juan-6137/lines/es-419?customerId=NPIdiV-P9Gcj-pA7yOXVPg')
                     pag.wait_for_timeout(timeout_default)
+                    buscador = pag.get_by_placeholder('Buscar una línea')
+                    buscador.fill(linea)
+                    buscador.press('Enter')
+                    pag.wait_for_timeout(timeout_default)
+                    results = pag.locator('.line-item').first.click()
                     pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
 
                     Paradas_por_linea[str(linea)] = {
