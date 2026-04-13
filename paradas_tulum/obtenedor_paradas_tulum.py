@@ -6,7 +6,7 @@ latitud = -31.5375
 longitud = -68.5364
 timeout_default=3000
 ACTION_TIMEOUT_MS = 15000
-numeros_de_lineas = ["10","121"]
+numeros_de_lineas = ["130"]
 
 Paradas_por_linea = {}
 def _guardar_json(salida, data):
