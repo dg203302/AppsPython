@@ -4,10 +4,11 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 latitud = -31.5375
 longitud = -68.5364
-timeout_default=3000
+timeout_default=5000
 ACTION_TIMEOUT_MS = 15000
-numeros_de_lineas = ["130"]
-
+numeros_de_lineas = [
+    "130"
+]
 Paradas_por_linea = {}
 def _guardar_json(salida, data):
     salida.write_text(
@@ -47,13 +48,23 @@ def main():
                     buscador.fill(linea)
                     buscador.press('Enter')
                     pag.wait_for_timeout(timeout_default)
-                    results = pag.locator('.line-item').first.click()
-                    pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
-
-                    Paradas_por_linea[str(linea)] = {
-                        "linea": str(linea),
-                        "paradas": _extraer_paradas_con_id(pag),
-                    }
+                    pag.locator('.line-item').first.click()
+                    pag.wait_for_timeout(timeout_default)
+                    selector = pag.locator('select')
+                    selector.click()
+                    opciones = selector.locator('option')
+                    count = opciones.count()
+                    if count:
+                        for i in range(count):
+                            opciones.nth(i).click()
+                            pag.wait_for_timeout(timeout_default)
+                            pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
+                            Paradas_por_linea[str(linea)] = {
+                                "linea": str(linea),
+                                "paradas": _extraer_paradas_con_id(pag),
+                            }
+                    else:
+                        
                 except Exception:
                     Paradas_por_linea[str(linea)] = None
 
