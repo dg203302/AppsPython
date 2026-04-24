@@ -50,14 +50,23 @@ def main():
                     pag.wait_for_timeout(timeout_default)
                     pag.locator('.line-item').first.click()
                     pag.wait_for_timeout(timeout_default)
-                    selector = pag.locator('select')
-                    if selector:
-                        selector.click()
-                        opciones = selector.locator('option')
-                        count = opciones.count()
+                    dropdown = pag.locator('button.lines-dropdown')
+                    if dropdown.count() > 0:
+                        # Abrir el menú una vez para contar las opciones
+                        dropdown.click()
+                        pag.wait_for_timeout(2000)
+                        count = pag.locator('[role="menuitem"]').count()
+                        # Cerrar el menú
+                        pag.keyboard.press('Escape')
+                        pag.wait_for_timeout(1000)
+
                         for i in range(count):
+                            # Abrir el menú de nuevo para cada opción
+                            dropdown.click()
+                            pag.wait_for_timeout(2000)
+                            opciones = pag.locator('[role="menuitem"]')
                             nombre_opcion = opciones.nth(i).inner_text().strip()
-                            selector.select_option(index=i)
+                            opciones.nth(i).click()
                             pag.wait_for_timeout(timeout_default)
                             pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
                             clave = f"{linea}_opcion_{i}"
@@ -67,6 +76,7 @@ def main():
                                 "paradas": _extraer_paradas_con_id(pag),
                             }
                     else:
+                        # Sin menú de direcciones, extraer directamente
                         pag.wait_for_timeout(timeout_default)
                         pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
                         Paradas_por_linea[str(linea)] = {
