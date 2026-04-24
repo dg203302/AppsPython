@@ -1,37 +1,12 @@
 import json
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 latitud = -31.5375
 longitud = -68.5364
 timeout_default=2000
 ACTION_TIMEOUT_MS = 15000
-numeros_de_lineas = [
-    "2", "3", "4", "20", "30", "40",
-    "100", "101", "102", "103", "104",
-    "120", "122", "123", "124", "125", "126", "127",
-    "140", "141", "142",
-    "160", "161", "162",
-    "200", "201", "202", "203", "204", "205", "206", "207", "208", "209", "210", "211", "212","213", "214",
-    "240", "241", "242", "243", "244", "245", "246",
-    "260", "261", "262", "263", "264", "265", "266",
-    "300", "301", "302", "303", "304", "305",
-    "320", "321", "322", "323",
-    "340", "341", "342", "343", "344", "345", "346",
-    "360", "361", "362", "363", "364",
-    "400", "401", "402", "403", "404", "405", "406", "407", "408",
-    "420", "421", "422", "423",
-    "440", "441", "442", "443", "444",
-    "460", "461", "462",
-    "500", "501", "502", "503", "504", "505",
-    "560",
-    "600", "601", "602",
-    "700", "701", "702",
-    "800", "801", "802", "808",
-    "850",
-    "A", "B", "C", "D", "E",
-    "TEO1", "TEO2", "TEO3", "TNS",
-]
+numeros_de_lineas = [ "120", "142", "200","260", "261", "265", "266", "300", "305", "323", "340","341", "344", "403", "405", "408", "441", "443", "503", "850", "124", "TEO2" ]
 Paradas_por_linea = {}
 def _guardar_json(salida, data):
     salida.write_text(
@@ -83,31 +58,56 @@ def main():
                         pag.keyboard.press('Escape')
                         pag.wait_for_timeout(1000)
 
+                        any_found = False
                         for i in range(count):
                             # Abrir el menú de nuevo para cada opción
                             dropdown.click()
                             pag.wait_for_timeout(2000)
                             opciones = pag.locator('[role="menuitem"]')
+                            # Si la opción ya no existe, continuar
+                            if opciones.count() <= i:
+                                pag.keyboard.press('Escape')
+                                pag.wait_for_timeout(500)
+                                continue
                             nombre_opcion = opciones.nth(i).inner_text().strip()
                             opciones.nth(i).click()
                             pag.wait_for_timeout(timeout_default)
-                            pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
+                            try:
+                                pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
+                            except PlaywrightTimeoutError:
+                                # No hay paradas para esta opción; intentar la siguiente
+                                try:
+                                    pag.keyboard.press('Escape')
+                                except Exception:
+                                    pass
+                                pag.wait_for_timeout(500)
+                                continue
+
+                            paradas = _extraer_paradas_con_id(pag)
                             clave = f"{linea}_opcion_{i}"
                             Paradas_por_linea[clave] = {
                                 "linea": str(linea),
                                 "opcion": nombre_opcion,
-                                "paradas": _extraer_paradas_con_id(pag),
+                                "paradas": paradas,
                             }
+                            any_found = True
+                        if not any_found:
+                            Paradas_por_linea[str(linea)] = None
                     else:
                         # Sin menú de direcciones, extraer directamente
                         pag.wait_for_timeout(timeout_default)
-                        pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
-                        Paradas_por_linea[str(linea)] = {
-                            "linea": str(linea),
-                            "paradas": _extraer_paradas_con_id(pag),
-                        }
+                        try:
+                            pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
+                            Paradas_por_linea[str(linea)] = {
+                                "linea": str(linea),
+                                "paradas": _extraer_paradas_con_id(pag),
+                            }
+                        except PlaywrightTimeoutError:
+                            Paradas_por_linea[str(linea)] = None
                 except Exception:
-                    Paradas_por_linea[str(linea)] = None
+                    # Registrar None solo si no se obtuvieron entradas para esta línea
+                    if not any(k.startswith(str(linea)) for k in Paradas_por_linea.keys()):
+                        Paradas_por_linea[str(linea)] = None
 
                 _guardar_json(salida, Paradas_por_linea)
         finally:
