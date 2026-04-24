@@ -51,20 +51,28 @@ def main():
                     pag.locator('.line-item').first.click()
                     pag.wait_for_timeout(timeout_default)
                     selector = pag.locator('select')
-                    selector.click()
-                    opciones = selector.locator('option')
-                    count = opciones.count()
-                    if count:
+                    if selector:
+                        selector.click()
+                        opciones = selector.locator('option')
+                        count = opciones.count()
                         for i in range(count):
-                            opciones.nth(i).click()
+                            nombre_opcion = opciones.nth(i).inner_text().strip()
+                            selector.select_option(index=i)
                             pag.wait_for_timeout(timeout_default)
                             pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
-                            Paradas_por_linea[str(linea)] = {
+                            clave = f"{linea}_opcion_{i}"
+                            Paradas_por_linea[clave] = {
                                 "linea": str(linea),
+                                "opcion": nombre_opcion,
                                 "paradas": _extraer_paradas_con_id(pag),
                             }
                     else:
-                        
+                        pag.wait_for_timeout(timeout_default)
+                        pag.wait_for_selector('.stop-item', timeout=ACTION_TIMEOUT_MS)
+                        Paradas_por_linea[str(linea)] = {
+                            "linea": str(linea),
+                            "paradas": _extraer_paradas_con_id(pag),
+                        }
                 except Exception:
                     Paradas_por_linea[str(linea)] = None
 
